@@ -1,6 +1,19 @@
-console.log("namaste javascript how are you")
-let a=67
-console.log(a)
-a="harry"
-console.log(a)
-//let 8harry=7
+let a= prompt("enter the value of a:")
+n=Number.parseInt(a)
+let i=0
+while(i<a){
+    console.log(i)
+    i++
+}
+
+//do while loop
+
+
+let a= prompt("enter the value of a:")
+n=Number.parseInt(a)
+let i=0
+
+do{
+    console.log(i)
+    i++
+}while(i<n)
